@@ -5,38 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontline Furnishers | Digital Showroom</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; }
-        header { background: #1a1a1a; color: #fff; padding: 3rem 2rem; text-align: center; }
-        h1 { margin: 0; letter-spacing: 2px; text-transform: uppercase; }
-        .container { width: 85%; margin: auto; overflow: hidden; padding: 2rem 0; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .card { border: 1px solid #eee; padding: 15px; text-align: center; transition: 0.3s; }
-        .card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .card img { max-width: 100%; height: auto; border-radius: 4px; }
-        footer { background: #f9f9f9; text-align: center; padding: 3rem; margin-top: 4rem; border-top: 1px solid #eee; }
-        .btn { background: #d4af37; color: white; padding: 12px 25px; text-decoration: none; display: inline-block; margin-top: 15px; border-radius: 2px; font-weight: bold; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; background-color: #fff; }
+        header { background: #1a1a1a; color: #fff; padding: 4rem 2rem; text-align: center; }
+        h1 { margin: 0; letter-spacing: 3px; text-transform: uppercase; font-size: 2.5rem; }
+        header p { color: #d4af37; font-style: italic; margin-top: 10px; font-size: 1.1rem; }
+        
+        .container { width: 85%; max-width: 1200px; margin: auto; overflow: hidden; padding: 4rem 0; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; }
+        
+        .card { border: 1px solid #eee; padding: 20px; text-align: center; transition: 0.3s; background: #fff; }
+        .card:hover { box-shadow: 0 10px 20px rgba(0,0,0,0.05); transform: translateY(-5px); }
+        .card img { max-width: 100%; height: auto; border-radius: 2px; margin-bottom: 15px; }
+        
+        h3 { margin: 10px 0; color: #1a1a1a; text-transform: uppercase; letter-spacing: 1px; }
+        .card p { color: #666; font-size: 0.95rem; margin-bottom: 20px; }
+        
+        .btn { background: #d4af37; color: white; padding: 12px 30px; text-decoration: none; display: inline-block; border-radius: 2px; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: #b8962d; }
+        
+        footer { background: #f9f9f9; text-align: center; padding: 4rem 2rem; margin-top: 4rem; border-top: 1px solid #eee; }
+        footer strong { color: #1a1a1a; }
+        
+        .privacy-btn { 
+            display: inline-block; 
+            margin-top: 25px; 
+            color: #d4af37; 
+            text-decoration: none; 
+            font-size: 0.8rem; 
+            font-weight: bold; 
+            letter-spacing: 1px;
+            border: 1px solid #d4af37;
+            padding: 8px 20px;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        .privacy-btn:hover { background: #d4af37; color: #fff; }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Frontline Furnishers</h1>
         <p>Excellence in Craftsmanship & Design</p>
     </header>
 
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 2rem;">Our Collection</h2>
+        <h2 style="text-align: center; margin-bottom: 3rem; text-transform: uppercase; letter-spacing: 2px;">Our Collection</h2>
+        
         <div class="gallery">
             <div class="card">
-                <img src="https://via.placeholder.com/400x300?text=Premium+Seating" alt="Frontline Furnishers Collection">
+                <img src="BESBOKE SEATING.jpg" alt="Bespoke Seating">
                 <h3>Bespoke Seating</h3>
-                <p>Elegant designs tailored for comfort and durability.</p>
+                <p>Elegant designs tailored for unparalleled comfort and lasting durability.</p>
                 <a href="mailto:info@frontlinefurnishers.org" class="btn">Inquire for Details</a>
             </div>
             
             <div class="card">
-                <img src="https://via.placeholder.com/400x300?text=Executive+Desks" alt="Frontline Furnishers Collection">
+                <img src="EXCECUTIVE WORKSPACE.jpg" alt="Executive Workspace">
                 <h3>Executive Workspace</h3>
-                <p>Commanding pieces for the modern professional.</p>
+                <p>Commanding pieces designed for the modern, high-level professional environment.</p>
                 <a href="mailto:info@frontlinefurnishers.org" class="btn">Inquire for Details</a>
             </div>
         </div>
@@ -45,6 +72,8 @@
     <footer>
         <p>For private viewings and inquiries: <strong>info@frontlinefurnishers.org</strong></p>
         <p>&copy; 2026 Frontline Furnishers. All rights reserved.</p>
+        <a href="privacy.html" class="privacy-btn">VIEW PRIVACY POLICY</a>
     </footer>
+
 </body>
 </html>
