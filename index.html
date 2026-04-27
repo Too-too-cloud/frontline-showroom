@@ -5,36 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontline Furnishers | Digital Showroom</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 0; color: #333; }
-        header { background: #222; color: #fff; padding: 2rem; text-align: center; }
-        .container { width: 80%; margin: auto; overflow: hidden; padding: 2rem 0; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .card { border: 1px solid #ddd; padding: 10px; text-align: center; }
-        .card img { max-width: 100%; height: auto; }
-        footer { background: #f4f4f4; text-align: center; padding: 2rem; margin-top: 2rem; }
-        .btn { background: #444; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; margin-top: 10px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; }
+        header { background: #1a1a1a; color: #fff; padding: 3rem 2rem; text-align: center; }
+        h1 { margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+        .container { width: 85%; margin: auto; overflow: hidden; padding: 2rem 0; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { border: 1px solid #eee; padding: 15px; text-align: center; transition: 0.3s; }
+        .card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .card img { max-width: 100%; height: auto; border-radius: 4px; }
+        footer { background: #f9f9f9; text-align: center; padding: 3rem; margin-top: 4rem; border-top: 1px solid #eee; }
+        .btn { background: #d4af37; color: white; padding: 12px 25px; text-decoration: none; display: inline-block; margin-top: 15px; border-radius: 2px; font-weight: bold; }
     </style>
 </head>
 <body>
     <header>
         <h1>Frontline Furnishers</h1>
-        <p>Premium Quality. Professional Service.</p>
+        <p>Excellence in Craftsmanship & Design</p>
     </header>
 
     <div class="container">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Our Collection</h2>
         <div class="gallery">
             <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Furniture Piece">
-                <h3>Executive Desk</h3>
-                <p>Solid oak, handcrafted finish.</p>
-                <a href="mailto:pelingscompany@org.com" class="btn">Inquire Now</a>
+                <img src="https://via.placeholder.com/400x300?text=Premium+Seating" alt="Frontline Furnishers Collection">
+                <h3>Bespoke Seating</h3>
+                <p>Elegant designs tailored for comfort and durability.</p>
+                <a href="mailto:pelingscompany@org.com" class="btn">Inquire for Details</a>
             </div>
+            
+            <div class="card">
+                <img src="https://via.placeholder.com/400x300?text=Executive+Desks" alt="Frontline Furnishers Collection">
+                <h3>Executive Workspace</h3>
+                <p>Commanding pieces for the modern professional.</p>
+                <a href="mailto:pelingscompany@org.com" class="btn">Inquire for Details</a>
             </div>
+        </div>
     </div>
 
     <footer>
-        <p>Contact us: <strong>pelingscompany@org.com</strong></p>
-        <p>&copy; 2026 Frontline Furnishers</p>
+        <p>For private viewings and inquiries: <strong>pelingscompany@org.com</strong></p>
+        <p>&copy; 2026 Frontline Furnishers. All rights reserved.</p>
     </footer>
 </body>
 </html>
